@@ -1,0 +1,138 @@
+
+@font-face{
+	font-family: pecita;
+	src:url(pecita.otf);
+}
+
+body {
+	color: #4a280c;
+	background-color: #fcf0e4;
+	align-content: center;
+	text-align: center;
+	padding: 10px 5px 0 0;
+	}
+
+.font {
+	font-family: pecita;
+	}
+
+.grid-container1{
+  display: grid;
+  grid-template-rows: 100px 1fr 100px 100px;
+  grid-template-columns: 200px 200px 655px;
+  height: 90vh;
+  margin: 0 0 70px 0;
+ }
+ 
+.grid-item {
+  background-color: #FFC0CB;
+  margin: 0 5px 10px 5px;
+  padding: 25px 0 0 0;	
+  width: 180px;
+  height: 60px;
+  font-size: 30px;
+  text-align: center;
+  border-radius:10px;}
+   
+.grid-item1 {
+  grid-column: 1/6;
+  grid-row: 1/2;
+  background-color: #aee5da;
+  padding: 30px 0 0 0;
+  font-size: 35px;
+  text-align: center;
+  border-radius:10px;
+ }
+ 
+ 
+.grid-item2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  padding: 20px 0 20px 0;
+  margin: 0 0 0 10px;
+  text-align: center;
+  border-radius:10px;
+ }
+ 
+.grid-item3 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  border-radius:10px;
+ }
+ 
+.grid-item4 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  background-color: #fcf0e4;
+  background: url('pusheen/Pusheens_Boba.gif');
+  background-size: 600px 600px;
+  background-repeat: no-repeat;
+  margin: 0 25px 0 30px;
+  align-content: center;
+ }
+ 
+.grid-item5 {
+  grid-column: 4/5;
+  grid-row: 2/3;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  border-radius:10px;
+ }
+
+.grid-item6 {
+  grid-column: 5/6;
+  grid-row: 2/3;
+  padding: 20px 0 20px 0;
+  margin: 0 20px 0 0;
+  text-align: center;
+  border-radius:10px;
+ }
+ 
+ 
+ .grid-container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+ }
+ 
+.grid-item7 {
+  grid-column: 1/2;
+  background-color:  #fcf0e4;
+  width: 250px;
+  height: 10px;
+}
+
+
+.grid-item8 {
+  grid-column: 7/8;
+  background-color:  #fcf0e4;
+  width: 250px;
+  height: 10px;
+}
+ 
+ 
+.grid-container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+ }
+ 
+.grid-item9 {
+  grid-column: 1/2;
+  background-color:  #fcf0e4;
+  width: 130px;
+  height: 10px;
+}
+
+
+.grid-item10 {
+  grid-column: 7/8;
+  background-color:  #fcf0e4;
+  width: 130px;
+  height: 10px;
+}
+ 
+
+ 
+
+  

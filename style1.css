@@ -1,0 +1,31 @@
+
+body {
+	background: url(pusheen/Eclairs_VS_Tongs.gif), #fcf0e4;
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 50%;
+	text-align: left;
+	padding: 250px 0 0 150px;
+	}
+
+@font-face{
+	font-family: pecita;
+	src: url(pecita.otf);
+}
+
+a {
+	font-family: pecita;
+	font-size: 100px;
+	text-decoration: none;
+	color: #4a280c;	
+	z-index: 2;
+}
+
+img {
+	width: 450px;
+	position: absolute;
+	top: 350px;
+	left: 50px;
+	z-index: -1;
+}
+
